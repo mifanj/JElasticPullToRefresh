@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "439CB7322E7ABB34E3E1B85B905DD161BCA87BC1+++66FC69D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "439CB7322E7ABB34E3E1B85B905DD161BCA87BC1+++E8A507C" : 0,
+    "439CB7322E7ABB34E3E1B85B905DD161BCA87BC1+++3D31C65" : 0,
+    "439CB7322E7ABB34E3E1B85B905DD161BCA87BC1+++66FC69D" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "9456AD37-E946-4510-AE66-DFB6D5135055",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "439CB7322E7ABB34E3E1B85B905DD161BCA87BC1+++E8A507C" : "..\/Downloads\/JElasticPullToRefresh",
+    "439CB7322E7ABB34E3E1B85B905DD161BCA87BC1+++3D31C65" : "..\/Downloads\/JElasticPullToRefresh",
+    "439CB7322E7ABB34E3E1B85B905DD161BCA87BC1+++66FC69D" : "JElasticPullToRefresh\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "JElasticPullToRefreshDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "JElasticPullToRefreshDemo\/JElasticPullToRefreshDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mifanj\/JElasticPullToRefresh.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "439CB7322E7ABB34E3E1B85B905DD161BCA87BC1+++3D31C65"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mifanj\/JElasticPullToRefresh.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "439CB7322E7ABB34E3E1B85B905DD161BCA87BC1+++66FC69D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mifanj\/JElasticPullToRefresh.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "439CB7322E7ABB34E3E1B85B905DD161BCA87BC1+++E8A507C"
+    }
+  ]
+}

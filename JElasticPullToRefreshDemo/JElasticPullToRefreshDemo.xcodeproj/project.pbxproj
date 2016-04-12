@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04533D7E1CBCCF2A0083D372 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04533D7D1CBCCF2A0083D372 /* main.m */; };
+		04533D811CBCCF2A0083D372 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04533D801CBCCF2A0083D372 /* AppDelegate.m */; };
+		04533D871CBCCF2A0083D372 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04533D851CBCCF2A0083D372 /* Main.storyboard */; };
+		04533D891CBCCF2A0083D372 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04533D881CBCCF2A0083D372 /* Assets.xcassets */; };
+		04533D8C1CBCCF2A0083D372 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04533D8A1CBCCF2A0083D372 /* LaunchScreen.storyboard */; };
+		04533D971CBCCF2A0083D372 /* JElasticPullToRefreshDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04533D961CBCCF2A0083D372 /* JElasticPullToRefreshDemoTests.m */; };
+		04533DA21CBCCF2A0083D372 /* JElasticPullToRefreshDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04533DA11CBCCF2A0083D372 /* JElasticPullToRefreshDemoUITests.m */; };
+		04533DB11CBCCF5A0083D372 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04533DB01CBCCF5A0083D372 /* TableViewController.m */; };
+		04533DBE1CBCCFE90083D372 /* JElasticPullToRefreshLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04533DB51CBCCFE90083D372 /* JElasticPullToRefreshLoadingView.m */; };
+		04533DBF1CBCCFE90083D372 /* JElasticPullToRefreshLoadingViewCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = 04533DB71CBCCFE90083D372 /* JElasticPullToRefreshLoadingViewCircle.m */; };
+		04533DC01CBCCFE90083D372 /* JElasticPullToRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04533DB91CBCCFE90083D372 /* JElasticPullToRefreshView.m */; };
+		04533DC11CBCCFE90083D372 /* UIScrollView+JElasticPullToRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 04533DBB1CBCCFE90083D372 /* UIScrollView+JElasticPullToRefresh.m */; };
+		04533DC21CBCCFE90083D372 /* UIView+JElasticPullToRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 04533DBD1CBCCFE90083D372 /* UIView+JElasticPullToRefresh.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04533D931CBCCF2A0083D372 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04533D711CBCCF2A0083D372 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04533D781CBCCF2A0083D372;
+			remoteInfo = JElasticPullToRefreshDemo;
+		};
+		04533D9E1CBCCF2A0083D372 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04533D711CBCCF2A0083D372 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04533D781CBCCF2A0083D372;
+			remoteInfo = JElasticPullToRefreshDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04533D791CBCCF2A0083D372 /* JElasticPullToRefreshDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JElasticPullToRefreshDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04533D7D1CBCCF2A0083D372 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04533D7F1CBCCF2A0083D372 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04533D801CBCCF2A0083D372 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04533D861CBCCF2A0083D372 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04533D881CBCCF2A0083D372 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04533D8B1CBCCF2A0083D372 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04533D8D1CBCCF2A0083D372 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04533D921CBCCF2A0083D372 /* JElasticPullToRefreshDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JElasticPullToRefreshDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04533D961CBCCF2A0083D372 /* JElasticPullToRefreshDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JElasticPullToRefreshDemoTests.m; sourceTree = "<group>"; };
+		04533D981CBCCF2A0083D372 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04533D9D1CBCCF2A0083D372 /* JElasticPullToRefreshDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JElasticPullToRefreshDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04533DA11CBCCF2A0083D372 /* JElasticPullToRefreshDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JElasticPullToRefreshDemoUITests.m; sourceTree = "<group>"; };
+		04533DA31CBCCF2A0083D372 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04533DAF1CBCCF5A0083D372 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		04533DB01CBCCF5A0083D372 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		04533DB31CBCCFE90083D372 /* JElasticPullToRefreshConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JElasticPullToRefreshConstants.h; sourceTree = "<group>"; };
+		04533DB41CBCCFE90083D372 /* JElasticPullToRefreshLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JElasticPullToRefreshLoadingView.h; sourceTree = "<group>"; };
+		04533DB51CBCCFE90083D372 /* JElasticPullToRefreshLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JElasticPullToRefreshLoadingView.m; sourceTree = "<group>"; };
+		04533DB61CBCCFE90083D372 /* JElasticPullToRefreshLoadingViewCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JElasticPullToRefreshLoadingViewCircle.h; sourceTree = "<group>"; };
+		04533DB71CBCCFE90083D372 /* JElasticPullToRefreshLoadingViewCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JElasticPullToRefreshLoadingViewCircle.m; sourceTree = "<group>"; };
+		04533DB81CBCCFE90083D372 /* JElasticPullToRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JElasticPullToRefreshView.h; sourceTree = "<group>"; };
+		04533DB91CBCCFE90083D372 /* JElasticPullToRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JElasticPullToRefreshView.m; sourceTree = "<group>"; };
+		04533DBA1CBCCFE90083D372 /* UIScrollView+JElasticPullToRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+JElasticPullToRefresh.h"; sourceTree = "<group>"; };
+		04533DBB1CBCCFE90083D372 /* UIScrollView+JElasticPullToRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+JElasticPullToRefresh.m"; sourceTree = "<group>"; };
+		04533DBC1CBCCFE90083D372 /* UIView+JElasticPullToRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JElasticPullToRefresh.h"; sourceTree = "<group>"; };
+		04533DBD1CBCCFE90083D372 /* UIView+JElasticPullToRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JElasticPullToRefresh.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04533D761CBCCF2A0083D372 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04533D8F1CBCCF2A0083D372 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04533D9A1CBCCF2A0083D372 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04533D701CBCCF2A0083D372 = {
+			isa = PBXGroup;
+			children = (
+				04533D7B1CBCCF2A0083D372 /* JElasticPullToRefreshDemo */,
+				04533D951CBCCF2A0083D372 /* JElasticPullToRefreshDemoTests */,
+				04533DA01CBCCF2A0083D372 /* JElasticPullToRefreshDemoUITests */,
+				04533D7A1CBCCF2A0083D372 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04533D7A1CBCCF2A0083D372 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04533D791CBCCF2A0083D372 /* JElasticPullToRefreshDemo.app */,
+				04533D921CBCCF2A0083D372 /* JElasticPullToRefreshDemoTests.xctest */,
+				04533D9D1CBCCF2A0083D372 /* JElasticPullToRefreshDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04533D7B1CBCCF2A0083D372 /* JElasticPullToRefreshDemo */ = {
+			isa = PBXGroup;
+			children = (
+				04533DB21CBCCFE90083D372 /* JElasticPullToRefresh */,
+				04533D7F1CBCCF2A0083D372 /* AppDelegate.h */,
+				04533D801CBCCF2A0083D372 /* AppDelegate.m */,
+				04533DAF1CBCCF5A0083D372 /* TableViewController.h */,
+				04533DB01CBCCF5A0083D372 /* TableViewController.m */,
+				04533D851CBCCF2A0083D372 /* Main.storyboard */,
+				04533D881CBCCF2A0083D372 /* Assets.xcassets */,
+				04533D8A1CBCCF2A0083D372 /* LaunchScreen.storyboard */,
+				04533D8D1CBCCF2A0083D372 /* Info.plist */,
+				04533D7C1CBCCF2A0083D372 /* Supporting Files */,
+			);
+			path = JElasticPullToRefreshDemo;
+			sourceTree = "<group>";
+		};
+		04533D7C1CBCCF2A0083D372 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04533D7D1CBCCF2A0083D372 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04533D951CBCCF2A0083D372 /* JElasticPullToRefreshDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				04533D961CBCCF2A0083D372 /* JElasticPullToRefreshDemoTests.m */,
+				04533D981CBCCF2A0083D372 /* Info.plist */,
+			);
+			path = JElasticPullToRefreshDemoTests;
+			sourceTree = "<group>";
+		};
+		04533DA01CBCCF2A0083D372 /* JElasticPullToRefreshDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04533DA11CBCCF2A0083D372 /* JElasticPullToRefreshDemoUITests.m */,
+				04533DA31CBCCF2A0083D372 /* Info.plist */,
+			);
+			path = JElasticPullToRefreshDemoUITests;
+			sourceTree = "<group>";
+		};
+		04533DB21CBCCFE90083D372 /* JElasticPullToRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				04533DB31CBCCFE90083D372 /* JElasticPullToRefreshConstants.h */,
+				04533DB41CBCCFE90083D372 /* JElasticPullToRefreshLoadingView.h */,
+				04533DB51CBCCFE90083D372 /* JElasticPullToRefreshLoadingView.m */,
+				04533DB61CBCCFE90083D372 /* JElasticPullToRefreshLoadingViewCircle.h */,
+				04533DB71CBCCFE90083D372 /* JElasticPullToRefreshLoadingViewCircle.m */,
+				04533DB81CBCCFE90083D372 /* JElasticPullToRefreshView.h */,
+				04533DB91CBCCFE90083D372 /* JElasticPullToRefreshView.m */,
+				04533DBA1CBCCFE90083D372 /* UIScrollView+JElasticPullToRefresh.h */,
+				04533DBB1CBCCFE90083D372 /* UIScrollView+JElasticPullToRefresh.m */,
+				04533DBC1CBCCFE90083D372 /* UIView+JElasticPullToRefresh.h */,
+				04533DBD1CBCCFE90083D372 /* UIView+JElasticPullToRefresh.m */,
+			);
+			name = JElasticPullToRefresh;
+			path = ../../../../Downloads/JElasticPullToRefresh/JElasticPullToRefresh;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04533D781CBCCF2A0083D372 /* JElasticPullToRefreshDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04533DA61CBCCF2A0083D372 /* Build configuration list for PBXNativeTarget "JElasticPullToRefreshDemo" */;
+			buildPhases = (
+				04533D751CBCCF2A0083D372 /* Sources */,
+				04533D761CBCCF2A0083D372 /* Frameworks */,
+				04533D771CBCCF2A0083D372 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JElasticPullToRefreshDemo;
+			productName = JElasticPullToRefreshDemo;
+			productReference = 04533D791CBCCF2A0083D372 /* JElasticPullToRefreshDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04533D911CBCCF2A0083D372 /* JElasticPullToRefreshDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04533DA91CBCCF2A0083D372 /* Build configuration list for PBXNativeTarget "JElasticPullToRefreshDemoTests" */;
+			buildPhases = (
+				04533D8E1CBCCF2A0083D372 /* Sources */,
+				04533D8F1CBCCF2A0083D372 /* Frameworks */,
+				04533D901CBCCF2A0083D372 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04533D941CBCCF2A0083D372 /* PBXTargetDependency */,
+			);
+			name = JElasticPullToRefreshDemoTests;
+			productName = JElasticPullToRefreshDemoTests;
+			productReference = 04533D921CBCCF2A0083D372 /* JElasticPullToRefreshDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04533D9C1CBCCF2A0083D372 /* JElasticPullToRefreshDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04533DAC1CBCCF2A0083D372 /* Build configuration list for PBXNativeTarget "JElasticPullToRefreshDemoUITests" */;
+			buildPhases = (
+				04533D991CBCCF2A0083D372 /* Sources */,
+				04533D9A1CBCCF2A0083D372 /* Frameworks */,
+				04533D9B1CBCCF2A0083D372 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04533D9F1CBCCF2A0083D372 /* PBXTargetDependency */,
+			);
+			name = JElasticPullToRefreshDemoUITests;
+			productName = JElasticPullToRefreshDemoUITests;
+			productReference = 04533D9D1CBCCF2A0083D372 /* JElasticPullToRefreshDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04533D711CBCCF2A0083D372 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = mjfanJ;
+				TargetAttributes = {
+					04533D781CBCCF2A0083D372 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					04533D911CBCCF2A0083D372 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 04533D781CBCCF2A0083D372;
+					};
+					04533D9C1CBCCF2A0083D372 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 04533D781CBCCF2A0083D372;
+					};
+				};
+			};
+			buildConfigurationList = 04533D741CBCCF2A0083D372 /* Build configuration list for PBXProject "JElasticPullToRefreshDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04533D701CBCCF2A0083D372;
+			productRefGroup = 04533D7A1CBCCF2A0083D372 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04533D781CBCCF2A0083D372 /* JElasticPullToRefreshDemo */,
+				04533D911CBCCF2A0083D372 /* JElasticPullToRefreshDemoTests */,
+				04533D9C1CBCCF2A0083D372 /* JElasticPullToRefreshDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04533D771CBCCF2A0083D372 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04533D8C1CBCCF2A0083D372 /* LaunchScreen.storyboard in Resources */,
+				04533D891CBCCF2A0083D372 /* Assets.xcassets in Resources */,
+				04533D871CBCCF2A0083D372 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04533D901CBCCF2A0083D372 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04533D9B1CBCCF2A0083D372 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04533D751CBCCF2A0083D372 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04533DBF1CBCCFE90083D372 /* JElasticPullToRefreshLoadingViewCircle.m in Sources */,
+				04533DBE1CBCCFE90083D372 /* JElasticPullToRefreshLoadingView.m in Sources */,
+				04533D811CBCCF2A0083D372 /* AppDelegate.m in Sources */,
+				04533DC21CBCCFE90083D372 /* UIView+JElasticPullToRefresh.m in Sources */,
+				04533DB11CBCCF5A0083D372 /* TableViewController.m in Sources */,
+				04533D7E1CBCCF2A0083D372 /* main.m in Sources */,
+				04533DC11CBCCFE90083D372 /* UIScrollView+JElasticPullToRefresh.m in Sources */,
+				04533DC01CBCCFE90083D372 /* JElasticPullToRefreshView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04533D8E1CBCCF2A0083D372 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04533D971CBCCF2A0083D372 /* JElasticPullToRefreshDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04533D991CBCCF2A0083D372 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04533DA21CBCCF2A0083D372 /* JElasticPullToRefreshDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04533D941CBCCF2A0083D372 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04533D781CBCCF2A0083D372 /* JElasticPullToRefreshDemo */;
+			targetProxy = 04533D931CBCCF2A0083D372 /* PBXContainerItemProxy */;
+		};
+		04533D9F1CBCCF2A0083D372 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04533D781CBCCF2A0083D372 /* JElasticPullToRefreshDemo */;
+			targetProxy = 04533D9E1CBCCF2A0083D372 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04533D851CBCCF2A0083D372 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04533D861CBCCF2A0083D372 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04533D8A1CBCCF2A0083D372 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04533D8B1CBCCF2A0083D372 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04533DA41CBCCF2A0083D372 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04533DA51CBCCF2A0083D372 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04533DA71CBCCF2A0083D372 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JElasticPullToRefreshDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mifanj.JElasticPullToRefreshDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04533DA81CBCCF2A0083D372 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JElasticPullToRefreshDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mifanj.JElasticPullToRefreshDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04533DAA1CBCCF2A0083D372 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JElasticPullToRefreshDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mifanj.JElasticPullToRefreshDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JElasticPullToRefreshDemo.app/JElasticPullToRefreshDemo";
+			};
+			name = Debug;
+		};
+		04533DAB1CBCCF2A0083D372 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JElasticPullToRefreshDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mifanj.JElasticPullToRefreshDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JElasticPullToRefreshDemo.app/JElasticPullToRefreshDemo";
+			};
+			name = Release;
+		};
+		04533DAD1CBCCF2A0083D372 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JElasticPullToRefreshDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mifanj.JElasticPullToRefreshDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JElasticPullToRefreshDemo;
+			};
+			name = Debug;
+		};
+		04533DAE1CBCCF2A0083D372 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JElasticPullToRefreshDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mifanj.JElasticPullToRefreshDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JElasticPullToRefreshDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04533D741CBCCF2A0083D372 /* Build configuration list for PBXProject "JElasticPullToRefreshDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04533DA41CBCCF2A0083D372 /* Debug */,
+				04533DA51CBCCF2A0083D372 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04533DA61CBCCF2A0083D372 /* Build configuration list for PBXNativeTarget "JElasticPullToRefreshDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04533DA71CBCCF2A0083D372 /* Debug */,
+				04533DA81CBCCF2A0083D372 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04533DA91CBCCF2A0083D372 /* Build configuration list for PBXNativeTarget "JElasticPullToRefreshDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04533DAA1CBCCF2A0083D372 /* Debug */,
+				04533DAB1CBCCF2A0083D372 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04533DAC1CBCCF2A0083D372 /* Build configuration list for PBXNativeTarget "JElasticPullToRefreshDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04533DAD1CBCCF2A0083D372 /* Debug */,
+				04533DAE1CBCCF2A0083D372 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04533D711CBCCF2A0083D372 /* Project object */;
+}
