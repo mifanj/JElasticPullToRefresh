@@ -32,7 +32,10 @@ pod "JElasticPullToRefresh"
 Add JElasticPullToRefresh folder into your project.
 
 ## Example usage
-
+Import "UIScrollView+JElasticPullToRefresh.h" at the scroll view file which you want to pull to refresh
+``` objc
+#import "UIScrollView+JElasticPullToRefresh.h"
+```
 ``` objc
 JElasticPullToRefreshLoadingViewCircle *loadingViewCircle = [[JElasticPullToRefreshLoadingViewCircle alloc] init];
 loadingViewCircle.tintColor = [UIColor whiteColor];

@@ -173,7 +173,7 @@
 				04533DBD1CBCCFE90083D372 /* UIView+JElasticPullToRefresh.m */,
 			);
 			name = JElasticPullToRefresh;
-			path = ../../../../Downloads/JElasticPullToRefresh/JElasticPullToRefresh;
+			path = ../../JElasticPullToRefresh;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
